@@ -1,0 +1,11 @@
+{
+  "name": "Encode",
+  "short_name": "Encode",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1917",
+  "theme_color": "#1a1917",
+  "description": "Developer encoder/decoder toolkit — part of FreeAppStore",
+  "orientation": "any",
+  "min_viewport_width": 360
+}

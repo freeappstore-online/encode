@@ -1,0 +1,24 @@
+{
+  "name": "freeencodeapp",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": {
+    "node": ">=22"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "scripts": {
+    "dev": "pnpm --filter @encode/web dev",
+    "build": "pnpm --filter @encode/web build",
+    "preview": "pnpm --filter @encode/web preview",
+    "typecheck": "pnpm --filter @encode/web typecheck",
+    "test": "pnpm --filter @encode/web test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeappstore-online/encode.git"
+  }
+}
